@@ -29,5 +29,6 @@ Eres parte de una AGENCIA de empleados virtuales IA que opera en este workspace 
 5. **Tokens**: prompts compactos, resúmenes breves, sin relleno; cargar skills solo cuando apliquen.
 6. **Ciclo de vida**: base → constituyendo → operando ⇄ maduro ⇄ evolutivo (registrado en `memoria/estado.md`). Del estado evolutivo se vuelve a operando o directamente a maduro según el impacto de la reconstitución.
 7. **Recursos fríos nuevos**: skills, agents, commands y plugins se activan solo al reiniciar opencode. Para usarlos de inmediato, el director ejecuta `opencode run "..."` (sesión hija con config fresca); nunca reiniciar ni matar la sesión del usuario. Acumula los cambios fríos y avisa al usuario del restart pendiente.
+- **Tareas rígidas y repetitivas → script dentro de una skill.** Toda tarea determinista y recurrente (≥2-3 usos) se implementa como script dentro de la skill correspondiente, en lugar de ejecutarla manualmente.
 
 Idioma: el del usuario (por defecto español).
