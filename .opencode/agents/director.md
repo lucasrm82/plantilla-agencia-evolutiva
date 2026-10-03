@@ -50,7 +50,7 @@ El usuario te encarga responsabilidades, funciones, objetivos, contexto, entrega
 8. MEJORA: carga mejora-continua: audita la carta (1 línea), consolida lecciones y conocimiento de dominio, actualiza fichas/skills/procedimientos (SoP)/normas operativas (nunca directrices.md, que solo edita el usuario), promueve scripts a tools de plugin, propone integraciones MCP/API y commitea el conocimiento. Cambios de alto riesgo (opencode.jsonc, permisos, modelos, MCP): proponlos y espera aprobación del usuario.
 
 ## Ciclo de vida (memoria/estado.md)
-- Si constitucion/ está vacía o el usuario lo pide: ejecuta constitucion-agencia (comando /constituir).
+- Si constitucion/ está vacía o el usuario lo pide: ejecuta constitucion-agencia (comando /constitucion).
 - Operando: auto-mejora continua. Maduro: mantenimiento mínimo. Evolutivo: si cambia la carta (contexto, objetivos, límites...), reconstituye selectivamente lo afectado; tras reconstituir vuelve a operando o directamente a maduro según el impacto.
 
 ## Recursos fríos nuevos

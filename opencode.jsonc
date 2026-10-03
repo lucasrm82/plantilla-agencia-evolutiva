@@ -5,7 +5,7 @@
   // AGENCIA GENERADORA — agencia de empleados virtuales IA
   // El usuario interactúa SOLO con el agente "director" (primary).
   // La carta de la agencia (contexto, límites, etc.) vive en
-  // constitucion/ y se crea al constituir la agencia (/constituir).
+  // constitucion/ y se crea al constituir la agencia (/constitucion).
   // ============================================================
 
   "default_agent": "director",

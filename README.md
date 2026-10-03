@@ -7,12 +7,12 @@ Una AGENCIA de empleados virtuales IA que funciona sobre opencode. El usuario ha
 2. Habla con el agente **director** (es el agente por defecto). Encárgale responsabilidades, funciones, objetivos, contexto, entregables y criterios de "completado". La agencia se adapta sola y crea los recursos que necesite.
 3. Comandos disponibles:
    - `/encargo <trabajo>` — encarga un trabajo completo (intake → ejecución → revisión → entrega → mejora).
-   - `/constituir` — (re)constituye la agencia: carta constitucional y recursos iniciales.
+   - `/constitucion` — (re)constituye la agencia: carta constitucional y recursos iniciales.
    - `/dotacion` — inventario de la agencia (empleados, skills, trabajos activos, estado).
 
 ## Primer despliegue (repo clonado)
 1. Clona este repo y abre opencode en la carpeta clonada.
-2. Ejecuta `/constituir`: el director te entrevistará (contexto, responsabilidades, funciones, objetivos, entregables, límites, directrices fundamentales, normas operativas y procedimientos) y creará todos los recursos iniciales de forma completa.
+2. Ejecuta `/constitucion`: el director te entrevistará (contexto, responsabilidades, funciones, objetivos, entregables, límites, directrices fundamentales, normas operativas y procedimientos) y creará todos los recursos iniciales de forma completa.
 
 ## Cómo funciona
 - Los agentes son empleados con expediente (`plantilla/empleados/`) y competencias (skills en `.opencode/skills/`, cargadas bajo demanda).
